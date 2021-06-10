@@ -20,6 +20,13 @@ div {
    margin-bottom: -20px;
    padding-top: 30px;
    padding-bottom: 10px;
+
+}
+#name {
+	float: right;
+	margin-top: -10px;
+
+	font-size: 20px;
 }
 #header {
    background-color: #F8F8F8;
@@ -64,7 +71,7 @@ img {
 
 
 .nav {
-   width: 100%;
+   width: 120%;
    background-color: #333;
    position: fixed;
    overflow: hidden;
