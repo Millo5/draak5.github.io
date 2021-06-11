@@ -4,35 +4,55 @@ html {
 div {
    font-family: Monospace;
 }
+
+body {
+	background-color: #070707;
+	color: #fefefe;
+}
+
+header {
+	overflow: none;
+	width: 100%;
+	height: 0%;
+}
+
+#titleHolder {
+	background-color: #33333f;
+	height: 75px;
+
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 10px;
+	margin-bottom: -20px;
+	padding-top: 45px;
+	padding-bottom: 10px;
+}
+
 #title {
    text-align: center;
-   color: black;
-   background-color: lightgray;
    text-transform: uppercase;
+   
+   margin: 0px;
+   margin-top: -0.6%;
    
    text-shadow: 2px 2px 5px gray;
    font-size: 80px;
-   height: 75px;
    
-   margin-left: -8px;
-   margin-right: -8px;
-   margin-top: 10px;
-   margin-bottom: -20px;
-   padding-top: 45px;
-   padding-bottom: 10px;
-
 }
+
+
 #column {
    width: 50%;
 }
 #name {
 	float: right;
-	margin-top: -10px;
+	margin-top: -20px;
+	margin-right: 10px;
 
 	font-size: 20px;
 }
 #header {
-   background-color: #F8F8F8;
+   background-color: #222;
    text-transform: capitalize;
    font-weight: bold;
    font-size: 30px;
@@ -42,7 +62,7 @@ div {
    margin-left: -8px;
 }
 #header2 {
-   background-color: #eeeeff;
+   background-color: #050511;
    font-size: 20px;
    
    padding-left: 8px;
