@@ -18,9 +18,12 @@ div {
    margin-right: -8px;
    margin-top: 10px;
    margin-bottom: -20px;
-   padding-top: 30px;
+   padding-top: 45px;
    padding-bottom: 10px;
 
+}
+#column {
+   width: 50%;
 }
 #name {
 	float: right;
@@ -33,14 +36,22 @@ div {
    text-transform: capitalize;
    font-weight: bold;
    font-size: 30px;
-   width: 500px;
+   width: 100%;
    
    padding-left: 8px;
    margin-left: -8px;
 }
+#header2 {
+   background-color: #eeeeff;
+   font-size: 20px;
+   
+   padding-left: 8px;
+   margin-left: -8px;
+   margin-bottom: 23px;
+}
 #text {
    margin-top: -20px;
-   font-size: 20px;
+   font-size: 15px;
 }
 
 .button {
@@ -54,7 +65,7 @@ div {
    font-size: 16px;
    margin 4px; 2px;
    cursor: pointer;
-   
+   margin-right: 1px;
 }
 
 
@@ -67,8 +78,13 @@ img {
    background-color: #333;
    border: 3px solid #333;
    padding: 2px;
+   
+   transition: transform .2s;
 }
 
+img:hover {
+   transform: scale(1.5);
+}
 
 .nav {
    width: 120%;
