@@ -12,7 +12,12 @@ Algemeen
 
 Legering            (Brons)
     Toepassing
-
+        Vroeger werd brons gebruikt voor wapens,   
+         tegenwoordig wordt het ook gebruikt voor 
+         kunstwerken. Omdat brons een goede
+         corrosiebestendigheid waarde heeft wordt brons
+         ook gebruikt voor voorwerpen die eventueel in
+         contact met water kunnen komen.
     Winning (of synthese)
 
     Stofeigenschappen & molecuulmassa met rekenvoorbeeld van atoomsoorten en de legering
