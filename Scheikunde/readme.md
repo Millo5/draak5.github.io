@@ -1,4 +1,5 @@
 Algemeen
+
     Bij elke stof leg je de link tussen het macro- en micro niveau.
     Je verklaart bv waarom een blokje brons zwaarder is dan een blokje ijzer
 
@@ -11,6 +12,7 @@ Algemeen
     Heldere bronvermeldingen
 
 Legering            (Brons)
+
     Toepassing
         Vroeger werd brons gebruikt voor wapens,   
          tegenwoordig wordt het ook gebruikt voor 
@@ -18,6 +20,7 @@ Legering            (Brons)
          corrosiebestendigheid waarde heeft wordt brons
          ook gebruikt voor voorwerpen die eventueel in
          contact met water kunnen komen.
+    
     Winning (of synthese)
 
     Stofeigenschappen & molecuulmassa met rekenvoorbeeld van atoomsoorten en de legering
@@ -34,6 +37,7 @@ Legering            (Brons)
     in de legering kan uitrekenen
 
 Zout Salmiak
+
     Toepassing
 
     Synthese & kloppende reactievergelijking
@@ -56,6 +60,7 @@ Zout Salmiak
     Modelmatige schets van het zout
 
 Moleculaire Stof    (Water)
+
     Toepassing
 
     Winning (of Synthese)
