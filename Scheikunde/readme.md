@@ -22,19 +22,46 @@ Legering            (Brons)
          contact met water kunnen komen.
     
     Winning (of synthese)
-
+        Winning = Koper en Tin
+        Synthese = Brons (Koper + Tin)
+        
     Stofeigenschappen & molecuulmassa met rekenvoorbeeld van atoomsoorten en de legering
-
+        Kleur: Donker bruin met groen
+        Molecuulmassa: 70,3 u
+        Kookpunt: 2503 tot 2693 K
+        Smeltpunt: 1103 tot 1293 K
+        
     Plaats in het periodiek systeen in combo met eigenschappen
-
+        Koper:
+            Atoomnummer: 29
+            Kleur: Roodbruin
+            Smeltpunt: 1357 K
+            Kookpunt: 2843 K
+            Atoommassa: 63,5 u
+        Tin:
+            Atoomnummer: 50
+            Kleur: Zilvergrijs
+            Smeltpunt: 505 K
+            Kookpunt: 2896 K
+            Atoommassa: 118,7 u
+        
     Aantal protonen, neutronen en elektronen per atoomsoort
-
+                +       0       -
+        Koper   29      35      29
+        Tin     50      69      50
+        
     Uitleg (microniveau) in welke fasen deze stof stroom geleid
+        Een legering geleid stroom in de vaste en vloeibare fasen.
+
 
     Uitleg binding in legering
+        
 
     Rekenvoorbeeld dat je het massapercentage van één van de atoomsoorten
     in de legering kan uitrekenen
+        In 57mg brons zit 7mg tin en 50mg koper
+        
+        50 / 57 * 100 = 87.7192982%
 
 Zout Salmiak
 
