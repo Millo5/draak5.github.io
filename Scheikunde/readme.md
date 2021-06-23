@@ -10,8 +10,9 @@ Algemeen
     Geen plagiaat
 
     Heldere bronvermeldingen
-
-Legering            (Brons)
+    
+https://nl.wikipedia.org/wiki/Koper_(element) https://nl.wikipedia.org/wiki/Tin_(element)
+Legering            (Brons) 
 
     Toepassing
         Vroeger werd brons gebruikt voor wapens,   
@@ -52,10 +53,12 @@ Legering            (Brons)
         
     Uitleg (microniveau) in welke fasen deze stof stroom geleid
         Een legering geleid stroom in de vaste en vloeibare fasen.
+        Wanneer er ruimte is voor de deeltjes om te bewegen en wanneer
+        ze geladen zijn, wordt er stroom geleid.
 
 
     Uitleg binding in legering
-        
+        ?
 
     Rekenvoorbeeld dat je het massapercentage van één van de atoomsoorten
     in de legering kan uitrekenen
@@ -63,22 +66,49 @@ Legering            (Brons)
         
         50 / 57 * 100 = 87.7192982%
 
+
+https://nl.wikipedia.org/wiki/Ammoniumchloride https://nl.wikipedia.org/wiki/Stikstof_(element) https://nl.wikipedia.org/wiki/Waterstof_(element)
+https://nl.wikipedia.org/wiki/Chloor_(element) BINAS
 Zout Salmiak
 
     Toepassing
-
+        Salmiak wordt gebruikt om drop van te maken
+    
     Synthese & kloppende reactievergelijking
-
+        N H3  +  H Cl  ->  N H4 Cl
+        
     Rekenvoorbeeld van hoeveel grondstoffen je nodig hebt om 1 kg salmiak te maken
-
+        1kg = 
+        
     Stofeigenschappen & molecuulmassa met rekenvoorbeeld van de atoomsoorten
+        N   (stikstof)
+            Kleur: Kleurloos
+            Smeltpunt: 63,3 K
+            Kookpunt: 77,2 K
+            Atoommassa: 14,0067 u
+        H   (waterstof)
+            Kleur: Kleurloos
+            Smeltpunt: 14,01 K
+            Kookpunt: 20,28 K
+            Atoommassa: 1,0079 u
+        Cl  (chloor)
+            Kleur: Wit
+            Smeltpunt: 172 K
+            Kookpunt: 239 K
+            Atoommassa: 35,453 u
 
     Triviale naam & rationele naam
-
+        Triviale naam: Salmiak
+        Rationele naam: Ammoniumchloride
+        
     Plaats in het periodiek systeem van de atoomsoorten
-
+        Cl  17
+        H   1
+        N   7
+        
     Aantal protonen, neutronen en elektronen aanwezig in de stof,
     zowel als per ion als in totaal
+        C
 
     Uitleg (microniveau) in welke fase het gekozen zout stroom geleidt
 
