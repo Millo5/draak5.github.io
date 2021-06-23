@@ -68,7 +68,7 @@ Legering            (Brons)
 
 
 https://nl.wikipedia.org/wiki/Ammoniumchloride https://nl.wikipedia.org/wiki/Stikstof_(element) https://nl.wikipedia.org/wiki/Waterstof_(element)
-https://nl.wikipedia.org/wiki/Chloor_(element) BINAS
+https://nl.wikipedia.org/wiki/Chloor_(element) Paragraaf 7 BINAS
 Zout Salmiak
 
     Toepassing
@@ -108,35 +108,78 @@ Zout Salmiak
         
     Aantal protonen, neutronen en elektronen aanwezig in de stof,
     zowel als per ion als in totaal
-        C
+                +       0       -
+        Totaal  28      25      37
+        Cl      17      18      16
+        H       1       0       2
+        N       7       7       13
 
     Uitleg (microniveau) in welke fase het gekozen zout stroom geleidt
-
+        Zout kan niet in een vaste fase geleiden, maar wel in een vloeibare fase.
+        Zouten bestaan uit geladen deeltjes, 
+        
+        
     Uitleg bindingen in zout
+        De elektrische aantrekkingskrachten tussen de positieve en negatieve
+        ionen is erg sterk, daardoor ontstaat een sterke binding tussen de ionen.
+        Deze ionen delen één of meer elektronen.
 
     Modelmatige schets van het zout
+        img/temp/scheikfrml.png
 
+https://nl.wikipedia.org/wiki/Zuurstof_(element) https://www.aljevragen.nl/sk/atoombouw/ATM060.html#:~:text=Covalentie%20is%20het%20aantal%20bindingen,zuurstof%20(O)%20covalentie%202.
 Moleculaire Stof    (Water)
 
     Toepassing
-
+        Water wordt gebruikt om te voorkomen dat levende organismen
+        gedehydrateerd raken. 
+        
     Winning (of Synthese)
+        Water is een synthese uit Water en Zuurstof.
 
     Stofeigenschappen & molecuulmassa met rekenvoorbeeld van de atoomsoorten
-
+        Molecuulmassa: 18,01528 g/mol
+        H   (waterstof)
+            Kleur: Kleurloos
+            Smeltpunt: 14,01 K
+            Kookpunt: 20,28 K
+            Atoommassa: 1,0079 u
+        O   (zuurstof)
+            Kleur: Kleurloos
+            Smeltpunt: 54,8 K
+            Kookpunt: 90,2 K
+            Atoommassa: 15,999 u
+            
+        
     Triviale naam &of rationele naam
-
+        Triviale naam: Water
+        Rationele naam: Waterstofdioxide
+        
     (Molecuul)Massa
-
+        18,01528 g/mol
+        
     Plaats in het periodiek systeen &
     de covalentie van de atoomsoorten waaruit het molecuul is opgebouwd
+                    covalentie P.S
+        Waterstof       1       1       
+        Zuurstof        2       8
 
     Aantal protonen, neutronen en elektronen 
-
+                +       0       -
+        Totaal  10      8       10
+        H       1       0       1
+        O       8       8       8
+        
     Hydrofiel/hydrofoob met verklaring waarom
+        NO FUCKING CLUE, HYDROFIEL?
 
     Uitleg (microniveau) in welke fase(n) de stof stroom geleidt
+        Omdat het een moleculaire stof is, geleid het in geneen van de fasen.
+        Moleculen kunnen alleen stroom geleiden als er geladen deeltjes zijn,
+        en moleculaire stoffen zijn niet geladen.
 
     Uitleg binding in moleculaire stof
-
+        
+        
     sturctuurformule / molecuultekening
+        
