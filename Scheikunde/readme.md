@@ -68,7 +68,7 @@ Legering            (Brons)
 
 
 https://nl.wikipedia.org/wiki/Ammoniumchloride https://nl.wikipedia.org/wiki/Stikstof_(element) https://nl.wikipedia.org/wiki/Waterstof_(element)
-https://nl.wikipedia.org/wiki/Chloor_(element) Paragraaf 7 BINAS
+https://nl.wikipedia.org/wiki/Chloor_(element) https://cdn.webshopapp.com/shops/282420/files/297919374/890x820x1/matthijs-salmiak-drop-zoute-repen.jpg Paragraaf 7 BINAS
 Zout Salmiak
 
     Toepassing
@@ -127,7 +127,8 @@ Zout Salmiak
     Modelmatige schets van het zout
         img/temp/scheikfrml.png
 
-https://nl.wikipedia.org/wiki/Zuurstof_(element) https://www.aljevragen.nl/sk/atoombouw/ATM060.html#:~:text=Covalentie%20is%20het%20aantal%20bindingen,zuurstof%20(O)%20covalentie%202. https://www.mrchadd.nl/academy/samenvattingen/scheikunde/moleculaire-stoffen
+https://nl.wikipedia.org/wiki/Zuurstof_(element) https://www.aljevragen.nl/sk/atoombouw/ATM060.html#:~:text=Covalentie%20is%20het%20aantal%20bindingen,zuurstof%20(O)%20covalentie%202.
+https://www.mrchadd.nl/academy/samenvattingen/scheikunde/moleculaire-stoffen https://www.thuiscomfort.nl/Waterstof/wat-is-waterstof.html
 Moleculaire Stof    (Water)
 
     Toepassing
