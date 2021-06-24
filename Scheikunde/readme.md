@@ -11,7 +11,7 @@ Algemeen
 
     Heldere bronvermeldingen
     
-https://nl.wikipedia.org/wiki/Koper_(element) https://nl.wikipedia.org/wiki/Tin_(element)
+https://nl.wikipedia.org/wiki/Koper_(element) https://nl.wikipedia.org/wiki/Tin_(element) Machiel https://nl.aliexpress.com/item/32754931687.html
 Legering            (Brons) 
 
     Toepassing
@@ -127,7 +127,7 @@ Zout Salmiak
     Modelmatige schets van het zout
         img/temp/scheikfrml.png
 
-https://nl.wikipedia.org/wiki/Zuurstof_(element) https://www.aljevragen.nl/sk/atoombouw/ATM060.html#:~:text=Covalentie%20is%20het%20aantal%20bindingen,zuurstof%20(O)%20covalentie%202.
+https://nl.wikipedia.org/wiki/Zuurstof_(element) https://www.aljevragen.nl/sk/atoombouw/ATM060.html#:~:text=Covalentie%20is%20het%20aantal%20bindingen,zuurstof%20(O)%20covalentie%202. https://www.mrchadd.nl/academy/samenvattingen/scheikunde/moleculaire-stoffen
 Moleculaire Stof    (Water)
 
     Toepassing
@@ -181,5 +181,5 @@ Moleculaire Stof    (Water)
     Uitleg binding in moleculaire stof
         
         
-    sturctuurformule / molecuultekening
+    structuurformule / molecuultekening
         

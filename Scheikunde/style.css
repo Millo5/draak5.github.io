@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+    height: auto !important;
+    padding-bottom: 700px !important;
 }
 div {
    font-family: Monospace;
@@ -40,10 +42,15 @@ header {
    
 }
 
-
 #column {
-   width: 50%;
+	float: left;
+	width: 75%;
 }
+#column2 {
+	float: left;
+	width: 25%;
+}
+
 #name {
 	float: right;
 	margin-top: -20px;
@@ -54,6 +61,7 @@ header {
 }
 #header {
    background-color: #222;
+   color: ff4444;
    text-transform: capitalize;
    font-weight: bold;
    font-size: 30px;
@@ -63,16 +71,17 @@ header {
    margin-left: -8px;
 }
 #header2 {
-   background-color: #050511;
-   font-size: 20px;
+   background-color: #07274f;
+   font-size: 22px;
    
    padding-left: 8px;
    margin-left: -8px;
-   margin-bottom: 23px;
+   margin-bottom: 27px;
+   margin-top: 30px;
 }
 #text {
    margin-top: -20px;
-   font-size: 15px;
+   font-size: 18px;
 }
 
 .button {
@@ -90,9 +99,26 @@ header {
 }
 
 
+
+#dimg {
+	width:100%;
+	height:200%;
+	object-fit: cover;
+}
+
+
+#protonen {
+	font-size: 18px;
+	width: 100%;
+	border-collapse: collapse;
+}
+#protonen td, #protonen th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
 img {
-   float: right;
-   
    margin-right: 60px;
    margin-top: -20px;
    
@@ -104,7 +130,7 @@ img {
 }
 
 img:hover {
-   transform: scale(1.5);
+   transform: scale(1.02);
 }
 
 .nav {
