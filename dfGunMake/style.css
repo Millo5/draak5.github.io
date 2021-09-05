@@ -1,0 +1,85 @@
+body {
+	background-color: var(--bg-color);
+	color: var(--main-text-color);
+	font-family: Monospace;
+	font-size: 10pt;
+}
+
+div {
+	display: block;
+}
+
+:root {
+	--bg-color: #111;
+	--main-color-a: #151515;
+	--main-color-d: #202020; 
+	--main-text-color: #f19216;
+	--main-frame-color: #888;
+	--field-border-color: #888;
+	--field-bg-color: #121212;
+}
+
+.roundedDiv {
+	display: inline-block;
+	vertical-align: text-top;
+	border-radius: 10px;
+	margin-right: 5px;
+	padding: 5px;
+	border: 2px solid var(--main-frame-color);
+	background-color: var(--main-color-a);
+}
+
+select {
+	background-color: var(--field-bg-color);
+	color: var(--main-text-color);
+	border: 1px solid var(--field-border-color);
+}
+
+input, textarea {
+	background-color: var(--field-bg-color);
+	color: var(--main-text-color);
+	border: 1px solid var(--field-border-color);
+}
+
+.label {
+	text-align: right;
+	display: inline-block;
+	width: 150px;
+	margin-top: 5px;
+}
+
+.medTF {
+	width: 150px;
+}
+
+.whatDo {
+	color: var(--green-text);
+	background-color: var(--field-bg-color);
+	border: solid var(--main-frame-color) 1px;
+	text-decoration: none;
+	font-weight: bold;
+
+	white-space: nowrap;
+	margin: 1px;
+	border-radius: 5px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+#commandOutput {
+
+	background-color: var(--main-color-d);
+	border: solid 1px var(--main-frame-color);
+}
+
+#commandOutput-ta {
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: block;
+	width: 100%;
+	height: 135px;
+	resize: none;
+
+	background-color: var(--main-color-a);
+}

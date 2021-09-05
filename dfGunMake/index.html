@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gun Generator</title>
+		<link rel="stylesheet" href="./style.css" />
+		<!--<script src='jquery-1.12.4.min.js'></script>-->
+		<script src="things.js"></script>
+	</head>
+	<body>
+		<h1>Gun Generator</h1>
+
+		<div id="commandOutput" onmouseover="this.style.cursor='pointer'">
+			<span id="command">Command Output:</span>
+			<br>
+			<textarea id="commandOutput-ta" spellcheck="false">Command</textarea>
+			<br>
+			<a href="javascript:generateCommand()" class="whatDo">Generate</a>
+		</div>
+
+		<br>
+
+		<div class="roundedDiv">
+			
+			<!-- Item ID -->
+			<span class="label">Item ID</span>
+			<input type="text" value id="itemId" class="medTF">
+			<a title="The item material." class="whatDo" tabindex="-1">?</a>
+
+			<br>
+			
+			<!-- Gun Type (for lore) -->
+			<span class="label">Gun Type</span>
+			<select id="gunType" class="label">
+				<option value="Rifle">Rifle</option>
+				<option value="Shotgun">Shotgun</option>
+				<option value="SMG">SMG</option>
+				<option value="Sniper">Sniper</option>
+				<option value="Special">Special</option>
+				</select>
+			<a title="What type of gun the gun is..." class="whatDo" tabindex="-1">?</a>
+			
+			<br>
+			
+			<!-- Ammo Type (atype, clip) -->
+			<span class="label">Ammo Type</span>
+			<select id="atype" class="label">
+				<option value="Basic">Basic</option>
+				<option value="Light">Light</option>
+				<option value="Shotgun">Shotgun</option>
+				<option value="Heavy">Heavy</option>
+				<option value="Special">Special</option>
+				</select>
+			<a title="The type of ammo" class="whatDo" tabindex="-1">?</a>
+
+			<br>
+			
+			<!-- Max Ammo (ammo, maxammo) -->
+			<span class="label">Max Ammo</span>
+			<input type="text" value id="ammo" class="medTF">
+			<a title="The maximum amount of ammo in the clip." class="whatDo" tabindex="-1">?</a>
+
+			<br>
+			
+			<!-- Rarities (rr) -->
+			<span class="label">Rarities</span>
+			<input type="text" value id="rr" class="medTF">
+			<a title="What rarities are supported,
+				common;uncommon;epic" class="whatDo" tabindex="-1">?</a>
+				
+			<br>
+			
+			<!-- Weapon ID (id, wep) -->
+			<span class="label">Weapon ID</span>
+			<input type="text" value id="id" class="medTF">
+			<a title="The weapon ID, used backhand (also in the process)" class="whatDo" tabindex="-1">?</a>
+			
+			<br>
+			
+			<!-- Cooldown (cd) -->
+			<span class="label">Cooldown</span>
+			<input type="text" value id="cd" class="medTF">
+			<a title="Cooldown between player RCs" class="whatDo" tabindex="-1">?</a>
+			
+			<br>
+			
+			<!-- Rarity Damage (rbdmg) -->
+			<span class="label">Rarity Damage</span>
+			<input type="text" value id="rbdmg" class="medTF">
+			<a title="How much damage each rarity deals
+				20;30;40" class="whatDo" tabindex="-1">?</a>
+				
+			<br>
+			
+			<!-- Fire Count (fires) -->
+			<span class="label">Fire Count</span>
+			<input type="text" value id="fires" class="medTF">
+			<a title="How many times it fires per RC" class="whatDo" tabindex="-1">?</a>
+			
+			<br>
+			
+			<!-- Rarity Reload (rreload) -->
+			<span class="label">Rarity Reload</span>
+			<input type="text" value id="rreload" class="medTF">
+			<a title="How fast it reloads in ticks
+				40;30;20" class="whatDo" tabindex="-1">?</a>
+
+			<br>
+			
+			<!-- Delay (wait) -->
+			<span class="label">Fire Delay</span>
+			<input type="text" value id="wait" class="medTF">
+			<a title="Delay in ticks between shots fired in a single RC" class="whatDo" tabindex="-1">?</a>
+
+		</div>
+	</body>
+</html>
