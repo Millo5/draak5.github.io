@@ -118,6 +118,16 @@ const bankPageId = "bankpages";
 const mTomesId = "mythictomes";
 const uniqueMsId = "uniqmythic";
 const powderTypes = ["Fire", "Air", "Water", "Earth", "Thunder"]
+
+const filterOptions = {
+    combat: "Ocombatlvl",
+    proflvl: "Oproflvl",
+    quests: "Oquests",
+    discoveries: "Odiscover",
+    dungeons: "Odungeons",
+    raids: "Oraids"
+}
+
 var currentUser = null;
 
 
@@ -128,8 +138,8 @@ function getEPouchValue(ind) {
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
-
 var FETCHEDAPIDATA = null;
+
 
 function initialize() {
     var name = urlParams.get('name')
@@ -200,6 +210,7 @@ function addCharacterDiv(char) {
 
 
 function addCardValue(card, comp, txt) {
+    if (comp == null) return card;
     var elem = document.createElement('p');
     elem.textContent = txt+": " + p(comp.value) + "% ("+comp.index+"/"+comp.key+")";
     card.appendChild(elem);
@@ -212,58 +223,69 @@ function totalCompletion(char) {
     completions = {};
 
     // Level Completion
-    var currentTotalXp = LevelRequirements[char.professions.combat.level].req * char.professions.combat.xp/100 + LevelRequirements[char.professions.combat.level-1].tot;
-    //console.log(currentTotalXp)
-    completions.combatLv = {
-        value: currentTotalXp / 498465880,
-        index: char.professions.combat.level,
-        key: 106
-    };
+    if (getCheckboxValue(filterOptions.combat)) {
+        var currentTotalXp = LevelRequirements[char.professions.combat.level].req * char.professions.combat.xp/100 + LevelRequirements[char.professions.combat.level-1].tot;
+        //console.log(currentTotalXp)
+        completions.combatLv = {
+            value: currentTotalXp / 498465880,
+            index: char.professions.combat.level,
+            key: 106
+        };
+    }
 
     // Skill Completions
-    completions.profLv = {value: 0};
-    var profs = ["alchemism", "armouring", "cooking", "farming",
-        "fishing", "jeweling", "mining", "scribing", "tailoring",
-        "weaponsmithing", "woodcutting", "woodworking"];
-    for (var i in profs) {
-        completions.profLv.value += char.professions[profs[i]].level;
+    if (getCheckboxValue(filterOptions.proflvl)) {
+        completions.profLv = {value: 0};
+        var profs = ["alchemism", "armouring", "cooking", "farming",
+            "fishing", "jeweling", "mining", "scribing", "tailoring",
+            "weaponsmithing", "woodcutting", "woodworking"];
+        for (var i in profs) {
+            completions.profLv.value += char.professions[profs[i]].level;
+        }
+        completions.profLv = {
+            value: completions.profLv.value / (132 * 12),
+            index: completions.profLv.value,
+            key: 132 * 12
+        };
     }
-    completions.profLv = {
-        value: completions.profLv.value / (132 * 12),
-        index: completions.profLv.value,
-        key: 132 * 12
-    };
     
     // Dungeon Completions
-    completions.dungeons = {
-        value: char.dungeons.list.length / 17,
-        index: char.dungeons.list.length,
-        key: 17
-    };
-    
+    if (getCheckboxValue(filterOptions.dungeons)) {
+        completions.dungeons = {
+            value: char.dungeons.list.length / 17,
+            index: char.dungeons.list.length,
+            key: 17
+        };
+    }
+
     // Raid Completions
-    completions.raids = {
-        value: char.raids.list.length / 4,
-        index: char.raids.list.length,
-        key: 4
-    };
+    if (getCheckboxValue(filterOptions.raids)) {
+        completions.raids = {
+            value: char.raids.list.length / 4,
+            index: char.raids.list.length,
+            key: 4
+        };
+    }
 
     // Quest Count					/ 138
         // Mini-Quest Count			    / 125
-    completions.quests = {
-        value: char.quests.completed / (138 + 125),
-        index: char.quests.completed,
-        key: 138+125
-    };
-    
+    if (getCheckboxValue(filterOptions.quests)) {
+        completions.quests = {
+            value: char.quests.completed / (138 + 125),
+            index: char.quests.completed,
+            key: 138+125
+        };
+    }
 
     // Discovery Count				/ 494
         // Secret Discovery Count		/ 105
-    completions.discoveries = {
-        value: char.discoveries / (494+105),
-        index: char.discoveries,
-        key: 494+105
-    };
+    if (getCheckboxValue(filterOptions.discoveries)) {
+        completions.discoveries = {
+            value: char.discoveries / (494+105),
+            index: char.discoveries,
+            key: 494+105
+        };
+    }
 
     if (getCheckboxValue("usemanual")) {
         // Emerald Pouches				/ 10
